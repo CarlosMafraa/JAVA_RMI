@@ -42,6 +42,18 @@ public class PersonSelectMethods extends UnicastRemoteObject implements PersonSe
                 String[] golpesVegeta = {"Final Flash", "Big Bang Attack"};
                 this.golpes = golpesVegeta;
                 return golpesVegeta;
+            case 3:
+                String[] golpesPiccolo = {"Makankosappo", "Sensuibun"};
+                this.golpes = golpesPiccolo;
+                return golpesPiccolo;
+            case 4:
+                String[] golpesGohan = {"Kamehameha", "Masenko"};
+                this.golpes = golpesGohan;
+                return golpesGohan;
+            case 5:
+                String[] golpesTrunks = {"Heat Dome Attack", "Sword Slash"};
+                this.golpes = golpesTrunks;
+                return golpesTrunks;
         }
         return null;
     }
